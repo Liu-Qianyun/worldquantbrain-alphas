@@ -1,0 +1,3 @@
+alpha_raw = (rank(ts_sum(vec_avg(nws12_afterhsz_sl), 260))>0.3)? 1 : rank(-ts_delta(close,2))*1;
+alpha_neut = group_neutralize(alpha_raw, subindustry);
+trade_when(volume>1.3*adv20,alpha_neut,-1);
