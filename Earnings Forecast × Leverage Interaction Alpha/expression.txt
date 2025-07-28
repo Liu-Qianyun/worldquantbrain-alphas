@@ -1,0 +1,1 @@
+2*ts_Rank(-rank(ebit/capex)/operating_income,504) +8*rank((ts_rank(est_eps/close,252)+ts_rank(est_netprofit/close,252))/2)*liabilities/assets
