@@ -1,6 +1,5 @@
 | Parameter         | Value                                      |
 |-------------------|--------------------------------------------|
-| Name              | Earnings Forecast × Leverage Interaction Alpha |
 | Instrument Type   | Equity                                     |
 | Region            | USA                                        |
 | Universe          | TOP3000                                    |
