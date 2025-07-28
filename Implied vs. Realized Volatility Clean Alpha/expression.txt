@@ -1,0 +1,5 @@
+raw = implied_volatility_call_120 / parkinson_volatility_120;
+rank_raw = rank(raw);
+alpha_neut = group_neutralize(rank_raw, industry);
+alpha_clean = winsorize(alpha_neut, std=3);
+trade_when(1, alpha_clean, 0);
