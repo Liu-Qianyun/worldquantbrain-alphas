@@ -1,0 +1,3 @@
+alpha_raw = winsorize(ts_backfill(liabilities/assets, 60)) * (ts_arg_min(debt/equity, 250));
+alpha_neut = group_neutralize(alpha_raw, industry); 
+final_signal = trade_when(1, alpha_neut, 0);  
