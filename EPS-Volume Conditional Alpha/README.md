@@ -1,6 +1,5 @@
 | Parameter         | Value                   |
 |-------------------|-------------------------|
-| Name              | EPS-Volume Conditional Alpha |
 | Instrument Type   | Equity                  |
 | Region            | USA                     |
 | Universe          | TOP3000                 |
