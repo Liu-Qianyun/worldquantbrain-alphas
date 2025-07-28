@@ -1,0 +1,1 @@
+final_signal = rank(ts_sum(vec_avg(nws12_afterhsz_sl), 25)) > 0.4 ? 1 : 0.7 * rank(-ts_delta(close, 10)) + 0.3 * rank(ts_mean(cap, 1800))
