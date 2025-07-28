@@ -1,6 +1,5 @@
 | Parameter         | Value                                 |
 |-------------------|-----------------------------------------|
-| Name              | CapEx Flag vs. Current Leverage Alpha |
 | Instrument Type   | Equity                                |
 | Region            | USA                                   |
 | Universe          | TOP3000                               |
