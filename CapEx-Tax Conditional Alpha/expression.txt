@@ -1,0 +1,1 @@
+rank(anl4_capex_flag) - rank(assets/liabilities_curr) + (0.59 * trade_when(put_breakeven_10 > put_breakeven_1080, -rank(fn_eff_income_tax_rate_continuing_operations_a),-1))
