@@ -1,0 +1,6 @@
+core = (implied_volatility_call_270 - implied_volatility_put_270);
+vol_proxy = abs(ts_zscore(close, 5));
+vol_group = bucket(rank(vol_proxy), buckets="0.15,0.3,0.5,0.7,0.85,1");
+core_zscore = group_zscore(core, vol_group);  
+entry = pcr_oi_270 < 1 && (volume > ts_mean(volume, 10)) && (close > ts_mean(close, 10));
+final_signal = trade_when(entry, core_zscore, -1);
