@@ -1,6 +1,5 @@
 | Parameter         | Value         |
 |-------------------|---------------|
-| Name              | PCR-Skew Conditional Alpha |
 | Instrument Type   | Equity        |
 | Region            | USA           |
 | Universe          | TOP3000       |
