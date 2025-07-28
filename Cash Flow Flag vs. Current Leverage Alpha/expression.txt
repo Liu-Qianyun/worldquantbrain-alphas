@@ -1,0 +1,1 @@
+rank(anl4_cff_flag) - rank(assets/liabilities_curr)
